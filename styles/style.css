@@ -224,13 +224,45 @@ main{
     font-weight: 400;
 }
 
+/* Run related styles */
+.run-container{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 165px;
+    padding: 30px 32px 29px 54px;
+    align-items: center;
+    border-radius: 18px;
+    background: #222;
+    margin-right: 210px;
+    margin-left:  210px;
+}
+.run-title{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.run-paragraph{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.run-img > img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
 /* Media Query */
 /* Smaller Device Media Query */
 @media screen and (max-width: 576px)  {
     .display-flex,
     .img-btn,
     .banner-btn,
-    .habit-img-container{
+    .habit-img-container,
+    .run-container{
         flex-direction: column;
     }
     .banner{
@@ -255,5 +287,21 @@ main{
     .habit-img-1 > img{
         display: flex;
         margin-left: 195px;
+    }
+    .run-container{
+        width: 100%;
+        margin-left: -90px;
+        text-align: center;
+    }
+    .run-img{
+        margin-left: 90px;
+        margin-top: -50px;
+    }
+    .run-title{
+        margin-left: 55px;
+    }
+    .run-paragraph{
+        text-align-last: left;
+        margin-left: 80px;
     }
 }

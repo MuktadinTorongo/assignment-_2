@@ -273,6 +273,9 @@ main{
         grid-template-columns: repeat(2 ,1fr);
         margin-left: 35px;
     }
+    .btn-1{
+        width: 190px;
+    }
     .banner-img-container{
         margin: auto;
         margin-top: 80px;

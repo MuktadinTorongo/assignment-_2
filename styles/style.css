@@ -20,8 +20,8 @@ body{
     background: #272727;
 }
 /* Bg Dark */
-.bd-dark{
-    /* background: #252525; */
+.bg-dark{
+    background: #000;
 }
 /* Text color */
 .text-white{
@@ -40,6 +40,9 @@ body{
     border-radius: 42px;
     background: #E6533C;
     border: 0;
+}
+main{
+    margin-top: -100px;
 }
 /* Body related styles */
 
@@ -179,12 +182,55 @@ body{
     margin-top: 10px;
 }
 
+/* Habit section styles */
+.habits-container{
+    margin-top: 100px;
+}
+.habit-text-container{
+    text-align: center;
+}
+.habit-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.habit-title{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: -100px;
+}
+.habit-paragraph{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.habit-img-1 >img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    border: 4px solid rgba(255, 255, 255, 0.10);
+}
+.img-title{
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.img-paragraph{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /* Media Query */
 /* Smaller Device Media Query */
 @media screen and (max-width: 576px)  {
     .display-flex,
     .img-btn,
-    .banner-btn{
+    .banner-btn,
+    .habit-img-container{
         flex-direction: column;
     }
     .banner{
@@ -205,5 +251,9 @@ body{
     }
     .img-btn-1{
         margin-left: -25px;
+    }
+    .habit-img-1 > img{
+        display: flex;
+        margin-left: 195px;
     }
 }

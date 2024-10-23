@@ -185,6 +185,7 @@ main{
 /* Habit section styles */
 .habits-container{
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 .habit-text-container{
     text-align: center;
@@ -227,15 +228,12 @@ main{
 /* Run related styles */
 .run-container{
     display: flex;
-    margin-top: 150px;
-    justify-content: center;
     gap: 165px;
     padding: 30px 32px 29px 54px;
-    align-items: center;
     border-radius: 18px;
     background: #222;
-    margin-right: 210px;
-    margin-left:  210px;
+    width: 60%;
+    margin: 0 auto;
 }
 .run-title{
     color: #FFF;

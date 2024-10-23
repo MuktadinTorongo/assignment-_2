@@ -223,7 +223,7 @@ main{
 .img-paragraph{
     color: rgba(255, 255, 255, 0.50);
     text-align: center;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
@@ -264,12 +264,12 @@ main{
 }
 .team-title{
     color: #FFF;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
 }
 .team-paragraph{
     color: rgba(255, 255, 255, 0.50);
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 400;
     margin-top: -20px;
 }
